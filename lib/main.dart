@@ -38,4 +38,4 @@ Future<void> main() async {
   );
 }
 
-Future<bool> isUpdateTermsStatus() async => Future.value(false);
+Future<bool> isUpdateTermsStatus() async => Future.value(true);

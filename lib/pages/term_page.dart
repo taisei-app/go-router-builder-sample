@@ -18,6 +18,7 @@ class TermsPage extends ConsumerWidget {
             const Text("利用規約画面（初回のみ表示）"),
             ElevatedButton(
               onPressed: () async {
+                // 利用規約同意後にshouldShowTermsのステータスを変更
                 await ref
                     .read(sharedPreferenceProvider)
                     .setBool("shouldShowTerms", false);
