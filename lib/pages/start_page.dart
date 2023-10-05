@@ -18,7 +18,7 @@ class StartPage extends ConsumerWidget {
             const Text("スタート画面"),
             ElevatedButton(
               onPressed: () async {
-                // ログインが完了したと仮定
+                // ログイン処理
                 await ref
                     .read(sharedPreferenceProvider)
                     .setBool("isLoggedIn", true);

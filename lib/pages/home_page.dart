@@ -14,7 +14,7 @@ class HomePage extends ConsumerWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("ログイン後の画面"),
+            Text("ホーム画面"),
           ],
         ),
       ),
